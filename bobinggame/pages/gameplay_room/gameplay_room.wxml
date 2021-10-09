@@ -1,0 +1,43 @@
+<!--pages/multi_game/gameplay_room/gameplay_room.wxml-->
+<view class = "button_icon">
+  <image class="bgImg" src= "../../image/no_moon_background.jpg" > </image>
+  <other-widget>
+      <image class="imgbox1" src="{{avatarUrl1}}"></image>
+  </other-widget>
+  <other-widget>
+      <image class="imgbox2" src="{{avatarUrl2}}" ></image>
+  </other-widget>
+  <other-widget>
+      <image class="imgbox3" src="{{avatarUrl3}}" ></image>
+  </other-widget>
+  <other-widget>
+      <image class="imgbox4" src="{{avatarUrl4}}" ></image>
+  </other-widget>
+  <other-widget>
+      <image class="imgbox5" src="{{avatarUrl5}}" ></image>
+  </other-widget>
+  <other-widget>
+      <image class="imgbox6" src="{{avatarUrl6}}" ></image>
+  </other-widget>
+  <other-widget bindtap="picture" class="yaotouzi" style="font-size:15px">
+    <button  bindtap="waitFor_otherplayer" class='btn'>摇骰子</button>
+  </other-widget>
+  <other-widget>
+      <view class="result" >
+        <text>{{result}}</text>
+      </view>
+  </other-widget>
+  <other-widget bindtap="goToMain" class="other-widget" style="font-size:15px">
+    <button class='btn'bindtap="back" plain="true">返回</button>
+  </other-widget>
+</view>
+<view>他人本局博饼</view>
+<view><text>玩家1.{{result1}}</text></view>
+
+<view><text>玩家2.{{result2}}</text></view>
+
+<view><text>玩家3.{{result3}}</text></view>
+
+<view><text>玩家4.{{result4}}</text></view>
+
+<view><text>玩家5.{{result5}}</text></view>

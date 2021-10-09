@@ -1,0 +1,15 @@
+<view class = "button_icon">
+  <image class="bgImg" src= "../../image/background.jpg" > </image>
+  <other-widget bindtap="goToSingle" class="other-widget1" style="font-size:15px" plain='true'>
+    <button class='btn'>单人游戏</button>
+  </other-widget>
+  <other-widget bindtap="goToMulti" class="other-widget2" style="font-size:15px">
+    <button class='btn'>多人游戏</button>
+  </other-widget>
+  <other-widget bindtap="goToRules" class="other-widget3" style="font-size:15px">
+    <button class='btn' >游戏规则</button>
+  </other-widget>
+  <other-widget class="other-widget4" style="font-size:15px">
+   <navigator target="miniProgram" open-type="exit"> <button class='btn'>退出游戏</button></navigator>
+  </other-widget>
+</view>

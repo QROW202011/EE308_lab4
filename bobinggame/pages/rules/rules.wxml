@@ -1,0 +1,7 @@
+<!--pages/rules/rules.wxml-->
+<view class = "button_icon">
+  <image class="bgImg" src= "../../image/rule_picture.jpg" > </image>
+  <other-widget bindtap="goToMain" class="other-widget" style="font-size:15px">
+    <button class='btn'>返回</button>
+  </other-widget>
+</view>

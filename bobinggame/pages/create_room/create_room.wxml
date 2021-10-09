@@ -1,0 +1,14 @@
+<!--pages/multi_game/create_room/create_room.wxml-->
+
+<view class = "button_icon">
+  <image class="bgImg" src= "../../image/no_moon_background.jpg" > </image>
+  <view class="section section_gap">
+  <text class = "text1" style="font-size:30px" >请选择游玩人数</text>
+            <view class="body-view">
+                <slider bindchange="changeData" activeColor = "#FFFAFA" min="2"  max = "12"  ><view>{{message}}</view></slider>
+            </view>
+        </view>
+</view>
+<other-widget bindtap="goTogameplaypage" class="button" style="font-size:15px">
+    <button class='btn1'>开始</button>
+  </other-widget>

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/single_game/single_game",
+    "pages/rules/rules",
+    "pages/create_room/create_room",
+    "pages/multi_game/multi_game",
+    "pages/createroom/createroom",
+    "pages/joinroom/joinroom",
+    "pages/gameplay_room/gameplay_room",
+    "pages/rank/rank"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

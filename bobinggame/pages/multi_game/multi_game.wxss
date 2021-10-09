@@ -1,0 +1,60 @@
+/* pages/multi_game/multi_game.wxss */
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+  }
+  .container{
+  width: 100%;
+  height: 1120rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+  .join {
+    position: absolute;
+    left:150rpx;
+    top:150rpx;
+    width: 500rpx;
+    height: 500rpx;
+  }
+  .create {
+    position: absolute;
+    left:150rpx;
+    bottom:150rpx;
+    width: 500rpx;
+    height: 500rpx;
+  }
+  .join1 {
+    position: absolute;
+      left:290rpx;
+      top:320rpx;
+      width: 200rpx;
+      height: 50rpx;
+      background-color: transparent;
+      border:none;
+  }
+  .join1::after{ 
+    border:none;
+  }
+.create1 {
+  position: absolute;
+    left:290rpx;
+    bottom:420rpx;
+    width: 200rpx;
+    height: 50rpx;
+    background-color: transparent;
+    border:none;
+}
+.create1::after{ 
+  border:none;
+}
+.other-widget{
+  position: absolute;
+  left:550rpx;
+  bottom:90rpx;
+  width: 175rpx;
+  height: 25rpx;
+}

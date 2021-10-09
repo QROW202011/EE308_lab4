@@ -1,0 +1,19 @@
+<!--pages/multi_game/multi_game.wxml-->
+<view class = "button_icon">
+  <image class="bgImg" src= "../../image/no_moon_background.jpg" > </image>
+  <other-widget>
+      <image class="join" src="../../image/moon.png"></image>
+      <other-widget bindtap="join" class="join1" style="font-size:15px">
+        <button class='btn' plain="true" >加入房间</button>
+      </other-widget>
+  </other-widget>
+  <other-widget>
+      <image class="create" src="../../image/moon.png"></image>
+      <other-widget bindtap="create" class="create1" style="font-size:15px">
+        <button class='btn' plain="true">创建房间</button>
+      </other-widget>
+  </other-widget>
+  <other-widget bindtap="goToMain" class="other-widget" style="font-size:15px">
+    <button class='btn' plain="true">返回</button>
+  </other-widget>
+</view>

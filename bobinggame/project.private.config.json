@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/single_game/single_game",
+          "pathName": "pages/single_game/single_game",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/multi_game/multi_game",
+          "pathName": "pages/multi_game/multi_game",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/create_room/create_room",
+          "pathName": "pages/create_room/create_room",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/gameplay_room/gameplay_room",
+          "pathName": "pages/gameplay_room/gameplay_room",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/rank/rank",
+          "pathName": "pages/rank/rank",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

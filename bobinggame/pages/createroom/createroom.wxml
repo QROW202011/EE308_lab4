@@ -1,0 +1,4 @@
+<!--pages/createroom/createroom.wxml-->
+<view class = "button_icon">
+  <image class="bgImg" src= "../../image/no_moon_background.jpg" > </image>
+</view>

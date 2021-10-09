@@ -1,0 +1,81 @@
+/* pages/single_game/single_game.wxss */
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+  display: inherit; 
+  }
+  .container{
+  width: 100%;
+  height: 1120rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+  .imgbox1{
+    position: absolute;
+    top:300rpx;
+    left: 150rpx;
+    width:100rpx;
+    height: 100rpx;
+  }
+  .imgbox2{
+    position: absolute;
+    left: 325rpx;
+    top:300rpx;
+    width:100rpx;
+    height: 100rpx;
+  }
+  .imgbox3{
+    position: absolute;
+    top:300rpx;
+    right:150rpx;
+    width:100rpx;
+    height: 100rpx;
+  }
+  .imgbox4{
+    position: absolute;
+    top:500rpx;
+    left: 150rpx;
+    width:100rpx;
+    height: 100rpx;
+  }
+  .imgbox5{
+    position: absolute;
+    top:500rpx;
+    left: 325rpx;
+    width:100rpx;
+    height: 100rpx;
+  }
+  .imgbox6{
+    position: absolute;
+    top:500rpx;
+    right: 150rpx;
+    width:100rpx;
+    height: 100rpx;
+  }
+  .yaotouzi{
+    position: absolute;
+    left:250rpx;
+    top:1000rpx;
+    width: 250rpx;
+    height: 70rpx;
+  }
+  .result{
+    position: absolute;
+    left:275rpx;
+    color: #ffffff;
+    font-size: 100rpx;
+    top:700rpx;
+    width: 500rpx;
+    height: 70rpx;
+  }
+  .other-widget{
+    position: absolute;
+    left:550rpx;
+    bottom:90rpx;
+    width: 175rpx;
+    height: 25rpx;
+  }
